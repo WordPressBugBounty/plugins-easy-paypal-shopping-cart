@@ -10,10 +10,10 @@ Tags: PayPal payment, PayPal, button, pay now, shopping cart, cart, gateway, buy
 Author: Scott Paterson
 Author URI: https://wpplugin.org
 License: GPL2
-Version: 1.1.11
+Version: 1.1.12
 */
 
-/*  Copyright 2014-2023 Scott Paterson
+/*  Copyright 2014-2025 Scott Paterson
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -180,11 +180,11 @@ class wpepsc_WPeasypaypalshoppingcart {
 		add_option("wpepsc_settingsoptions", $wpepsc_settingsoptions);
 	}
 	
-	function wpepsc_deactivate() {
+	public static function wpepsc_deactivate() {
 		delete_option("wpepsc_my_plugin_notice_shown");
 	}
 	
-	function wpepsc_uninstall() {
+	public static function wpepsc_uninstall() {
 	}
 }
 

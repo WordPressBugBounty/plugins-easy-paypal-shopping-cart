@@ -4,7 +4,7 @@ Donate link: https://wpplugin.org/donate/
 Tags: PayPal, shopping cart, cart, gateway
 Author URI: https://wpplugin.org
 Requires at least: 3.0
-Tested up to: 6.8
+Tested up to: 6.9
 Requires PHP: 5.4
 Stable tag: 1.1.12
 License: GPLv2 or later
